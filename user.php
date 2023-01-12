@@ -1,6 +1,6 @@
 <?php
 
-    include('mysqli.php');
+    include('database/mysqli.php');
 
     class User extends Database { 
         public  $id;

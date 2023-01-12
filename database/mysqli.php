@@ -10,7 +10,7 @@ class Database {
     public $mysqli;
 
     public function dbConnexion() {
-
+        
         $conn = new mysqli($this->db_hostname, $this->db_username, $this->db_password, $this->db_database, $this->db_port);
         
         if($conn->connect_errno){
